@@ -1,0 +1,15 @@
+{
+  "name": "@zovo/extension-starter",
+  "version": "0.1.0",
+  "description": "Modern Chrome extension starter with Manifest V3, TypeScript, and best practices",
+  "keywords": ["chrome-extension", "manifest-v3", "typescript", "starter"],
+  "homepage": "https://github.com/zovo-tools/chrome-extension-starter-mv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zovo-tools/chrome-extension-starter-mv3.git"
+  },
+  "author": "Zovo Tools <team@zovo.io>",
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" },
+  "bin": { "create-extension": "./bin/create.js" }
+}

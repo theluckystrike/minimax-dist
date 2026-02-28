@@ -1,0 +1,33 @@
+{
+  "name": "@zovo/storage-plus",
+  "version": "0.1.0",
+  "description": "Type-safe Chrome storage API wrapper with migration support",
+  "keywords": [
+    "chrome-storage",
+    "chrome-extension-storage",
+    "localstorage-wrapper",
+    "type-safe-storage",
+    "chrome",
+    "extension",
+    "storage"
+  ],
+  "homepage": "https://github.com/zovo-tools/chrome-storage-plus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zovo-tools/chrome-storage-plus.git"
+  },
+  "author": "Zovo Tools <team@zovo.io>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
